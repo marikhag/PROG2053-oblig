@@ -6,12 +6,16 @@
     font-family: "Roboto-Light";
     src: url(Fonts/Roboto-Light.ttf) format("truetype");
 }
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Fonts/Roboto-Regular.ttf) format("truetype");
+}
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Roboto-Bold", sans-serif;
+    font-family: "Roboto-Regular", sans-serif;
 }
 h1{
     font-family: "Roboto-Bold", sans-serif;
@@ -97,7 +101,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 100px 120px;
+    padding: 130px 120px;
     background-color: #1f2936;
 
 
