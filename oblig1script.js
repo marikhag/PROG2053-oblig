@@ -101,7 +101,6 @@ function fetchHomeData() {
 
             if (posts.length === 0) {
                 allPostsLoaded = true;  // Hvis den ikke returnerer flere poster, så reg det som at alle er postet
-                document.getElementById('loader').innerText = "No more posts to load";
                 return;
             }
             for (post of posts) {
@@ -127,6 +126,7 @@ function fetchHomeData() {
 
 }
 
+
 // Funksjon for å sjekke når vi er på bunnen av siden
 function checkScroll() {
     const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
@@ -141,6 +141,3 @@ function checkScroll() {
 window.addEventListener('scroll', checkScroll);
 
 fetchHomeData();
-
-
-
