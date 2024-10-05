@@ -2,12 +2,12 @@
               WEATHER UPDATES
 */
 const coordinates =[
-  {lat:59.913868, long: 10.752245, city:'Oslo'},
-  {lat:60.79574, long: 10.69155, city: 'Gjøvik'},
-  {lat:48.85341, long: 2.3488, city: 'Paris'},
-  {lat:52.52437, long: 13.41053, city: 'Berlin'},
-  {lat:49.24966, long: -123.11934, city:'Vancouver'},
-  {lat:35.6895, long: 139.6917, city: 'Tokyo'}
+  {lat: 59.913868, long: 10.752245, city:'Oslo'},
+  {lat: 60.79574,  long: 10.69155,  city: 'Gjøvik'},
+  {lat: 60.246028, long: 9.356566,  city:'Eggedal'},
+  {lat: 48.85341,  long: 2.3488,    city: 'Paris'},
+  {lat: 52.52437,  long: 13.41053,  city: 'Berlin'},
+  {lat: 35.6895,   long: 139.6917,  city: 'Tokyo'}
 
 ];
 
