@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "Roboto-Regular", sans-serif;
+    font-family: "Roboto-Regular", san-serif;
 }
 h1{
     font-family: "Roboto-Black", sans-serif;
@@ -43,9 +43,6 @@ h3{
     font-family: "Roboto-Black", sans-serif;
     text-align: center;
     color: #ffff;
-}
-p{
-    font-family: "Roboto-Regular", san-serif;
 }
 
 
@@ -109,7 +106,7 @@ header{
 }
 
 
-#double{
+#hero{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -134,7 +131,7 @@ header{
     }
     p {
         text-align: justify;
-        max-width: 320px;
+        max-width: 300px;
 
     }
     input{
@@ -158,7 +155,7 @@ header{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-#rekke{
+#double{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -200,7 +197,7 @@ header{
 }
 }
 
-#blockquote{
+blockquote{
     background-color: #cfcfcf;
     padding: 50px 50px;
     margin-top: 60px;
@@ -215,8 +212,8 @@ header{
         max-width: 550px;
         width: auto;
         text-shadow: 1px 1px 5px #7f7e7e;}
-    #signedBy {
-        font-size: xx-large;    
+    .signedBy {
+        font-size: x-large;    
         text-align: right;
         font-family: "Roboto-Black", sans-serif;
         text-shadow: none;
@@ -237,6 +234,7 @@ header{
     margin-top: 100px;
     margin-bottom: 100px;
     h4{
+        font-family: "Roboto-Black", sans-serif;
         color: #fff;
         margin-top: 10px;
         margin-bottom: -15px;
@@ -315,7 +313,6 @@ header{
     background-color: #1f2936;
     color: #fff;
     padding: 50px 50px;
-    font-weight: bold;
     p{ text-align: center;
     }
 }
